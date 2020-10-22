@@ -24,7 +24,7 @@
             <div class="info">
 
                 <div>
-                    <b>Il modello di Von neomann comprende:</b>
+                    <b>Il modello di Von Neomann comprende:</b>
                 </div>
                 <div class="list">
                     <ul>
@@ -32,14 +32,37 @@
                             centrale, le interpetra e le esegue, una alla volta.
                         </li>
                         <li> <b>Memoria (RAM) </b> - contiene informazioni </li>
-                        <li> <b>Interfacce di Input/OUtput I/O</b> - collegamenti tra il sistema disposti utili all'
+                        <li> <b>Interfacce di Input/utput I/O</b> - collegamenti tra il sistema disposti utili all'
                             inserimento di dati e programmi (periferiche di input) e a formare all' utente il risultato
                             dell' elaborazione (periferiche di output) </li>
-                        <li> <b>Bus di sistema</b> - collega tra loro le componenti della macchina di Von Neumann, assicurando che tutti i trasferimenti di dati passino attraverso il bus  </li>
+                        <li> <b>Bus di sistema</b> - collega tra loro le componenti della macchina di Von Neumann,
+                            assicurando che tutti i trasferimenti di dati passino attraverso il bus </li>
                     </ul>
                 </div>
 
+                <a target="_blank" href="Resource/1024px-Computer_system_bus.svg.png">
+                    <img class="Image" width="800px" height="400" src="Resource/1024px-Computer_system_bus.svg.png" alt="">
+                </a>
 
+                <div class="header">1.4.2 Come funziona la macchina di Von Neumann</div>
+                <div>
+                    <b>La funzione:</b>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li> <b>1 Lettura istruzione (fase di Fetch)</b>
+                        </li>
+                        Grazie il BUS INDIRIZZI la CPU attiva la locazione di memoria il cui indirizzo è contenuto nel
+                        registro PROGRAM COUNTER. il contenuto della locazione di memoria viene trasferito, tramite il
+                        BUS DATI, nel REGISTRO ISTRUZIONE CORRENTE della CPU
+                        </li>
+                        <li> <b>2 Decodifica istruzione (fase di DECODE)</b> </li>
+                        in base al codice operativo viene decodificata l' istruzione corrente
+                        <li> <b>3 Esecuzione istruzione (fase di EXECUTIVE)</b>
+                            la CPU esegue l' istruzione corrente. Tramite il BUS DATI vengono trasferiti in memoria
+                            eventuali risultati dell' opera </li>
+                    </ul>
+                </div>
 
 
 
