@@ -116,7 +116,10 @@ body {
 }
 
 .Image {
-  padding-left: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 #mix {
