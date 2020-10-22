@@ -109,3 +109,8 @@ body {
 .punto_gras {
   text-transform: initial;
 }
+
+#students{
+  font-size: large;
+  font-weight: bold;
+}
